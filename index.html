@@ -1,0 +1,64 @@
+# XLeduchaX.github.io
+<html><head>
+        <meta charset="UTF-8">
+        <title>Formularz 1</title>
+        <style>
+            #form1 {
+                width: 400px;
+            }
+            
+            #form2 {
+                width: 450px;
+            }
+        </style>
+    </head>
+    <body>
+       <form><div id="form1">
+        <fieldset><legend>Dane Osobowe</legend>
+           <table>
+               <tbody><tr>
+                 <td>Imię: </td>
+                 <td><input type="text" name="imie"></td>  
+               </tr>
+               <tr>
+                 <td>Nazwisko:</td>
+                 <td><input type="text" name="nazwisko"></td> 
+               </tr>
+               <tr>
+                 <td> Data urodzenia:</td>
+                 <td><input type="date" name="data"></td>  
+               </tr>
+               <tr>
+                 <td>Miejsce urodzenia: &nbsp; &nbsp; &nbsp;</td>
+                 <td><input type="text" name="miejsceur"></td>  
+               </tr>
+           </tbody></table>  
+        </fieldset> 
+    </div> 
+    
+    <div id="form2">
+        <fieldset><legend>Pozostałe informacje</legend>
+            <table>
+                <tbody><tr>
+                   <td>Wykształcenie:</td>
+                   <td colspan="3">
+                   <input type="radio" name="wykształcenie">podstawowe 
+                   <input type="radio" name="wykształcenie">średnie 
+                   <input type="radio" name="wykształcenie">wyższe 
+                   </td> 
+                   
+                </tr>
+                <tr>
+                   <td>Zawód wykonywany: </td>
+                   <td colspan="3"><input type="text" name="zawod"></td>  
+                </tr>
+                <tr>
+                  <td>Dodatkowe umiejętności: </td>
+                   <td colspan="3"><textarea name="dodatkowe" cols="30" rows="7"></textarea></td>
+                </tr>
+            </tbody></table>
+        </fieldset> 
+        <input type="submit" value="Wyślij">
+    </div>
+</form>
+</body></html>
