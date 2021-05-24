@@ -1,0 +1,375 @@
+body {
+    background-color: #bfbfbf;
+    margin-top: 0px;
+}
+
+#page {
+    width: 1200px;
+    background-color: white;
+    min-height: 800px;
+    max-height: 3000px;
+    clear: both;
+}
+
+header {
+    width: 1200px;
+    background-color: #92B662;
+    height: 85px;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 10px;
+}
+
+nav {
+    width: 1200px;
+    height: 50px;
+}
+.menu {
+    width: 298px;
+    height: 35px;
+    float: left;
+    background-color: #BABBBE;
+    border: 1px solid white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: #92B668;
+    border-top: 2px solid white;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.menu:hover {
+    background-color: #A9D18E;
+    height: 36px;
+    color: white;
+    font-size: 22px;
+}
+
+.menua {
+   background-color: #92B668;
+    height: 51px;
+    color: white;
+    font-size: 22px;
+    border-top: 2px solid white;
+    padding-top: 15px;
+    float: left;
+    width: 298px;
+    
+}
+
+
+main{
+    border: 5px dotted #92B668;
+    clear: both;
+    width: 750px;
+    height: 800px;
+    max-height: 3000px;
+    float: left;
+    margin: 20px;
+}
+
+#maingaleria{
+    border: 5px dotted #92B668;
+    clear: both;
+    width: 1150px;
+    min-height: 900px;
+    max-height: 3000px;
+    float: left;
+    margin: 20px;
+}
+
+aside {
+    background-color: #92B668;
+    float: left;
+    width: 350px;
+    height: 810px;
+    margin: 20px;
+}
+
+.zdjecie {
+    width: 328px;
+    height: 228px;
+    margin: 13px;
+    margin-top: 30px;
+    border: 5px solid #92B668;
+}
+
+.zdjecie2 {
+    width: 540px;
+    height: 270px;
+    margin: 13px;
+    margin-top: 30px;
+    border: 5px solid #92B668;
+}
+
+
+
+.zdjecie:hover {
+    width: 332px;
+    height: 232px;
+    margin: 13px;
+    border: 5px solid #92B668;
+}
+
+.zdjecie2:hover {
+    width: 542px;
+    height: 272px;
+    margin: 13px;
+    margin-top: 30px;
+    border: 5px solid #92B668;
+}
+
+
+#film {
+  width: 480px;
+  height: 270px;
+  border: 5px solid #92B668;
+    margin: 15px;
+    margin-top: 30px;
+    float: left;
+    margin-left: 35px;
+}
+
+
+
+footer {
+    width: 1200px;
+    background-color: #92B662;
+    height: 45px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 35px;
+    clear: both;
+}
+
+
+#mainglowna {
+    border: 5px dotted #92B668;
+    clear: both;
+    width: 750px;
+    height: 800px;
+    float: left;
+    margin: 20px;
+    margin-top: 45px;
+    
+    
+}
+
+#asideglowna {
+    background-color: #92B668;
+    float: left;
+    width: 310px;
+    height: 450px;
+    margin: 20px;
+    color: white;
+    font-size: 19px;
+    padding: 20px;
+    text-align: left;
+}
+
+#zdjecie3 {
+    width: 250px;
+    margin: 45px;
+}
+
+h1 {
+    color: #92B668;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.h3_1 {
+    color: #92B668;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: left;
+    margin-left: 45px;
+}
+
+.h3_2 {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 25px;
+    text-indent: 35px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.link1 {
+    color: #92B668;
+    text-decoration: none;
+}
+
+.link1:visited {
+    color: #92B668;
+    text-decoration: none;
+}
+
+.link1:hover {
+    color: #92B668;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.link2 {
+    color: white;
+    text-decoration: none;
+}
+
+.link2:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.link2:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+section {
+    width: 248px;
+    height: 223px;
+    background-color: #92B668;
+    border: 5px dotted white;
+    align-content: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+#tabela {
+    width: 700px;
+    height: 450px;
+    text-align: center;
+    border: 0px;
+}
+
+td {
+    border: 3px solid #92B668
+}
+
+.glowne {
+    height: 30px;
+    color: white;
+    width: 140px;
+}
+
+.odpady {
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+    color: #92B668;
+    padding-top: 10px;
+   vertical-align: top;
+    
+}
+
+#lista {
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    margin-left: 15px;
+    line-height: 20px;
+}
+
+.podlista {
+    font-size: 16px;
+    margin-right: 30px;
+    line-height: 20px;
+}
+
+.ankieta {
+    border: 5px dotted #92B668;
+    clear: both;
+    width: 1100px;
+    height: 1300px;
+    margin: 20px;
+    margin-top: 40px;  
+    background-color: white;
+    float: none;
+}
+
+#tankieta {
+    width: 1050px;
+    border: 0px;
+    margin: 20px;
+    vertical-align: top;
+    margin-top: 0px;text-align: -webkit-center;
+    
+    
+    
+}
+
+.komorkal {
+    width: 460px;
+    border: 0px;
+    border-right: 5px solid #92B668;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    border-bottom: 0px;
+    
+}
+.komorkap {
+    width: 460px;
+    border: 0px;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-right: 20px;
+     text-align: left;
+    border-bottom: 0px;
+}
+
+#komorka1 {
+    width: 500px;
+    text-align: center;
+    border: 5px solid #92B668;
+    border-radius: 50px;
+    
+}
+
+p::selection {
+  color: white;
+  background: #92B668;
+}
+
+p::-moz-selection { 
+    color: white;
+    background: #92B668;
+}
+
+h1::selection {
+  color: white;
+  background: #92B668;
+}
+
+h1::-moz-selection { 
+    color: white;
+    background: #92B668;
+}
+
+h3::selection {
+  color: white;
+  background: #92B668;
+}
+
+h3::-moz-selection { 
+    color: white;
+    background: #92B668;
+}
+
+
+
+
+
